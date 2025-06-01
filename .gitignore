@@ -1,24 +1,10 @@
-# Ignorar todo por defecto
+# ACEPTAR TODO (archivos y carpetas)
 *
 
-# Permitir solo archivos .py
-!*.py
-
-# Excepciones específicas (opcional)
-!.gitignore
-!README.md
-
-# Ignorar directorios y archivos específicos
-best_model.keras
-datasets/
-Include/
-Lib/
-Scripts/
-pyvenv.cfg
-__pycache__/
-*.py[cod]
-*.so
-*.egg-info/
-*.log
-*.swp
-.DS_Store
+# EXCEPCIONES: Solo ignorar estos elementos específicos
+**/best_model.keras
+**/datasets/
+**/Include/
+**/Lib/
+**/Scripts/
+**/pyvenv.cfg
