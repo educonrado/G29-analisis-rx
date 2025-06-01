@@ -1,10 +1,26 @@
-# ACEPTAR TODO (archivos y carpetas)
+# Ignorar todo por defecto
 *
 
-# EXCEPCIONES: Solo ignorar estos elementos específicos
-**/best_model.keras
-**/datasets/
-**/Include/
-**/Lib/
-**/Scripts/
-**/pyvenv.cfg
+# Permitir archivos .py en cualquier ubicación
+!*.py
+!**/*.py
+
+# Permitir la carpeta 'visor' y su contenido
+!visor/
+!visor/**/*
+
+# Permitir archivos esenciales
+!.gitignore
+
+# Ignorar específicamente estos elementos
+best_model.keras
+datasets/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Ignorar archivos temporales del sistema
+*.tmp
+*.bak
+.DS_Store
